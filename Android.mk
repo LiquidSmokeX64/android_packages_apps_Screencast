@@ -14,4 +14,7 @@ LOCAL_PACKAGE_NAME := Screencast
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_PRIVILEGED_MODULE := true
 
+# Enable dexpreopt to speed boot time
+WITH_DEXPREOPT := true
+
 include $(BUILD_PACKAGE)
